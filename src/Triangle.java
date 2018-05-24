@@ -1,8 +1,8 @@
 public class Triangle {
-    int podstawa;
-    int wysokosc;
+    double podstawa;
+    double wysokosc;
 
-    public Triangle(int podstawa, int wysokosc) {
+    public Triangle(double podstawa, double wysokosc) {
         this.podstawa = podstawa;
         this.wysokosc = wysokosc;
     }

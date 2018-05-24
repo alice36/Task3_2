@@ -1,7 +1,7 @@
 public class Circle {
-    int promien;
+    double promien;
 
-    public Circle(int promien) {
+    public Circle(double promien) {
         this.promien = promien;
     }
 }

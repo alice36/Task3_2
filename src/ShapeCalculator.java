@@ -1,7 +1,7 @@
 public class ShapeCalculator {
 
     double squareArea(Square square){
-        int pole = square.bok*square.bok;
+        double pole = square.bok*square.bok;
         return pole;
     }
     double circleArea(Circle circle){
@@ -13,7 +13,7 @@ public class ShapeCalculator {
         return pole;
     }
     double rectPerimeter(Rectangle rectangle){
-        double pole = rectangle.BokDluzszy*rectangle.BokKrotszy;
+        double pole = rectangle.bokDluzszy*rectangle.bokKrotszy;
         return pole;
     }
 }

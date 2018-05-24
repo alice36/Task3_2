@@ -1,13 +1,13 @@
 public class Rectangle {
-    int BokKrotszy;
-    int BokDluzszy;
+    double bokKrotszy;
+    double bokDluzszy;
 
-    public Rectangle(int bokKrotszy, int bokDluzszy) {
-        BokKrotszy = bokKrotszy;
-        BokDluzszy = bokDluzszy;
+    public Rectangle(double bokKrotszy, double bokDluzszy) {
+        this.bokKrotszy = bokKrotszy;
+        this.bokDluzszy = bokDluzszy;
     }
 
     void showInfo(){
-        System.out.println(BokDluzszy + " " + BokDluzszy);
+        System.out.println(bokKrotszy + " " + bokDluzszy);
     }
 }

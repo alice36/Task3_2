@@ -1,7 +1,7 @@
 public class Square {
-    int bok;
+    double bok;
 
-    public Square(int bok) {
+    public Square(double bok) {
         this.bok = bok;
     }
 
